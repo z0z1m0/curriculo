@@ -1,3 +1,6 @@
+*{
+    font-size: 18px;
+}
 h1, h2, h3{
     text-transform: uppercase;
 }
@@ -15,6 +18,10 @@ h1, h2, h3{
 }
 #nameTitle h1,h2{
     margin: 0;
+}
+#container{
+    display: grid;
+    grid-auto-flow: column;
 }
 #contact{
     list-style: none;
@@ -39,4 +46,12 @@ h1, h2, h3{
 }
 .info{
     margin-left: 25px;
+}
+#aboutMe{
+    width: 800px;
+    height: 350px;
+}
+#aboutMe p{
+    margin: 0px 15px 0px 35px;
+    text-align: justify;
 }
